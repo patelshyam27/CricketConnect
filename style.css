@@ -1,0 +1,109 @@
+:root {
+    --primary: #2196f3;
+    --secondary: #ff9800;
+    --success: #4caf50;
+    --danger: #f44336;
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-secondary: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    --shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+.navbar-custom {
+    background: var(--gradient-primary) !important;
+    box-shadow: var(--shadow);
+    padding: 1rem 0;
+}
+
+.card-custom {
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.btn-custom {
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary-custom {
+    background: var(--gradient-primary);
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.form-control-custom {
+    border-radius: 15px;
+    border: 2px solid #e3f2fd;
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+}
+
+.form-control-custom:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(33,150,243,0.25);
+}
+
+.hero-section {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 100px 0;
+}
+
+.feature-icon {
+    font-size: 3.5rem;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.admin-sidebar {
+    background: var(--gradient-primary);
+    min-height: 100vh;
+    color: white;
+}
+
+.admin-nav-link {
+    color: rgba(255,255,255,0.8);
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.admin-nav-link:hover {
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.table-custom {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
