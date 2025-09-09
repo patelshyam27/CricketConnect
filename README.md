@@ -59,10 +59,6 @@ A comprehensive web application for cricket enthusiasts to find players, book Bo
    - Copy all files to: C:\xampp\htdocs\Cricket_Connect_Box\
    ```
 
-4. **Access Application**
-   ```
-   - URL: http://localhost/Cricket_Connect_Box/
-   - Admin Login: abpmech73@gmail.com / 271106
    ```
 
 ## Database Schema
@@ -103,9 +99,6 @@ A comprehensive web application for cricket enthusiasts to find players, book Bo
 - Real-time follow/unfollow
 - Dynamic content loading
 
-## Admin Credentials
-- **Email**: abpmech73@gmail.com
-- **Password**: 271106
 
 ## Contact Information
 - **Support Email**: shyamnp27@gmail.com
